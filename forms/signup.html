@@ -1,0 +1,78 @@
+<html>
+<head>
+	<title>Sign up</title>
+<style>
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-bottom: 8px;
+    }
+
+    input {
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+</style>
+</head>
+<body>
+ <div class="container">
+    <h1>Project</h1>
+    <form action="#" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" minlength="8" required>
+      <label for="password">Repeat password:</label>
+      <input type="password" id="password" name="password" minlength="8" required>
+      
+
+      <button type="submit">Submit</button><br>
+      <a href="login.html">Log in</a>
+    </form>
+    
+ </div>
+ <div class="footer-copyright">
+    <div class="container" style="color: black;font-size: smaller;width:10000000px;">
+    © Copyright 2024
+    </div>
+  </div>
+</body>
+</html>
